@@ -2,7 +2,7 @@ package main
 
 import (
 	// s "random/structures"
-  "random/ioop"
+	"random/streams"
 )
 
 // func main() {
@@ -64,7 +64,7 @@ import (
 //   log.Println(user)
 // }
 
-
 func main() {
- ioop.Ioop() 
+	streams.FuncCopyBuffer()
+
 }

@@ -17,7 +17,7 @@ func Ioop() {
 
 	var writer bytes.Buffer
 	for _, p := range proverbs {
-		
+
 		n, err := writer.Write([]byte(p))
 
 		if err != nil {

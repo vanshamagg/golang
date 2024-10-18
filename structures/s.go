@@ -1,12 +1,10 @@
 package structures
 
-
 type User struct {
 	FirstName string
 	LastName  string
 	Age       int
 	Address   string
-
 }
 
 type Employee struct {
