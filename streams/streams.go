@@ -24,6 +24,7 @@ func FuncCopyBuffer() {
 			log.Fatal(err)
 	 }
 
+	 
 	//  Re-using the exiting buffer
 
 
@@ -31,5 +32,6 @@ func FuncCopyBuffer() {
 		log.Fatal(err)
  }
 
- 
+
+
 }
