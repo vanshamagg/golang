@@ -2,7 +2,7 @@ package main
 
 import (
 	// s "random/structures"
-	"random/streams"
+	"random/goroutines"
 )
 
 // func main() {
@@ -65,6 +65,6 @@ import (
 // }
 
 func main() {
-	streams.FuncCopyBuffer()
+	goroutines.ChannelExample()
 
 }
