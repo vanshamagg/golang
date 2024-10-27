@@ -65,6 +65,6 @@ import (
 // }
 
 func main() {
-	goroutines.ChannelExample()
+	goroutines.BufferedChannelsExample()
 
 }
