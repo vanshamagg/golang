@@ -2,7 +2,8 @@ package main
 
 import (
 	// s "random/structures"
-	"random/goroutines"
+	// "random/goroutines"
+	"random/buffered"
 )
 
 // func main() {
@@ -65,6 +66,6 @@ import (
 // }
 
 func main() {
-	goroutines.BufferedChannelsExample()
+	buffered.BufioExample()
 
 }
