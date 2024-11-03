@@ -65,5 +65,5 @@ import "random/channels"
 // }
 
 func main() {
-	channels.ChannelExample()
+	channels.BufferedChannelExample()
 }
